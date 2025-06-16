@@ -34,7 +34,7 @@
 ### 2. <code>vit_experiments/</code> - Vision Transformer Trials
 Experiments are structured based on:
 - <strong>MLP Head Variations</strong> (<code>MLP 1</code>, <code>MLP 2</code>, <code>MLP 3</code>, <code>MLP 6</code>, <code>MLP 9</code>)
-- <strong>Image Preprocessing</strong> (<code>RAW</code>, <code>320px</code>, <code>480px</code>, <code>1080px</code>)
+- <strong>Image Preprocessing</strong> (<code>RAW</code>, <code>320×548px</code>, <code>854×480px</code>, <code>1920×1080px</code>)
 - <strong>Patch Sizes</strong> (<code>4×4</code>, <code>6×6</code>, <code>7×7</code>, <code>8×8</code>,  <code>12×12</code>)
 
 <h4>📂 Folder Naming Format:</h4>
@@ -44,9 +44,9 @@ Experiments are structured based on:
   <li><strong>[RESOLUTION]</strong> → Image preprocessing method:
     <ul>
       <li><code>RAW</code> → Original resolution (no resizing)</li>
-      <li><code>320</code> → Resized to 320px (using Microsoft PowerToys)</li>
-      <li><code>480</code> → Resized to 854×480px</li>
-      <li><code>1080</code> → Resized to 1920×1080px</li>
+      <li><code>320</code> → Resized to 320×548px (using Microsoft PowerToys)</li>
+      <li><code>480</code> → Resized to 854×480px(using Microsoft PowerToys)</li>
+      <li><code>1080</code> → Resized to 1920×1080px(using Microsoft PowerToys)</li>
     </ul>
   </li>
 </ul>
