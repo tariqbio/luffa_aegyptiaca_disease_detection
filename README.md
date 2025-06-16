@@ -69,7 +69,7 @@ This is a deep learning research project focused on detecting diseases in *Luffa
 I used:
 - 📸 Leaf images (2 datasets — one verified by a plant pathologist)
 - 🧠 CNNs and Vision Transformers (ViTs)
-- 🧪 Different image sizes, patch sizes, and MLP depths
+- 🧪 Different image sizes, patch sizes, and MLP heads
 
 The goal: ✅ High-accuracy, low-resource models for field use in agriculture.
 
