@@ -57,7 +57,6 @@ Experiments are structured based on:
   <li><strong>[IMAGE_SIZE]</strong> → Input dimensions (e.g., <code>21×21</code>, <code>64×64</code>)</li>
   <li><strong>[PATCH_SIZE]</strong> → ViT patch size (e.g., <code>7×7</code>, <code>12×12</code>)</li>
   <li><strong>[EXECUTION TIME]</strong> → Random execution time (e.g., <code>4821s</code>)</li>
-  <li><strong>(VERSION)</strong> → Experiment iteration (e.g., <code>(9)2</code>)</li>
 </ul>
 
 ---
