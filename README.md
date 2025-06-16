@@ -33,9 +33,9 @@
 
 ### 2. <code>vit_experiments/</code> - Vision Transformer Trials
 Experiments are structured based on:
-- <strong>MLP Head Variations</strong> (<code>MLP 1</code>, <code>MLP 2</code>, <code>MLP 3</code>)
+- <strong>MLP Head Variations</strong> (<code>MLP 1</code>, <code>MLP 2</code>, <code>MLP 3</code>, <code>MLP 6</code>, <code>MLP 9</code>)
 - <strong>Image Preprocessing</strong> (<code>RAW</code>, <code>320px</code>, <code>480px</code>, <code>1080px</code>)
-- <strong>Patch Sizes</strong> (<code>4×4</code>, <code>7×7</code>, <code>12×12</code>)
+- <strong>Patch Sizes</strong> (<code>4×4</code>, <code>6×6</code>, <code>7×7</code>, <code>8×8</code>,  <code>12×12</code>)
 
 <h4>📂 Folder Naming Format:</h4>
 <pre><code>Luffa_MLP_[HEAD]_[RESOLUTION]</code></pre>
@@ -56,7 +56,7 @@ Experiments are structured based on:
 <ul>
   <li><strong>[IMAGE_SIZE]</strong> → Input dimensions (e.g., <code>21×21</code>, <code>64×64</code>)</li>
   <li><strong>[PATCH_SIZE]</strong> → ViT patch size (e.g., <code>7×7</code>, <code>12×12</code>)</li>
-  <li><strong>[SEED]</strong> → Random execution time (e.g., <code>4821s</code>)</li>
+  <li><strong>[EXECUTION TIME]</strong> → Random execution time (e.g., <code>4821s</code>)</li>
   <li><strong>(VERSION)</strong> → Experiment iteration (e.g., <code>(9)2</code>)</li>
 </ul>
 
