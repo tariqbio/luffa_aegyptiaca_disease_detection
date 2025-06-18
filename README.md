@@ -103,7 +103,7 @@ The goal: ✅ High-accuracy, low-resource models for field use in agriculture.
   - `main_cnn.ipynb` (final verified version)
 
 ### 🔸 ViT (Vision Transformer)
-- Used patching methods like `4x4`, `6x6`, `8x8`
+- Used patching methods like `4x4`, `6x6`, `7x7`,`8x8`
 - Tried MLP Head layers like `1`, `3`, `6`, `9`
 - Image Sizes tested:
   - `21x21`, `28x28`, `32x32`, `48x48`, `56x56`, `64x64`
@@ -114,10 +114,10 @@ The goal: ✅ High-accuracy, low-resource models for field use in agriculture.
 
 | Model Notebook                         | Dataset        | Accuracy  | Notes                        |
 |----------------------------------------|----------------|-----------|------------------------------|
-| `main_cnn.ipynb`                       | 2-class (✅)   | 93.4%     | Final CNN model              |
-| `main_vit.ipynb`                       | 2-class (✅)   | 94.8%     | Final ViT model              |
-| `Remodeled_CNN_BY_TARIQ_worked.ipynb` | 3-class (⚠️)   | 89.6%     | Older CNN                    |
-| `Luffa_32X32_8X8_4821s_(9)3.ipynb`     | 3-class (⚠️)   | 91.2%     | Strong ViT on unverified set |
+| `main_cnn.ipynb`                       | 2-class (✅)   | 98.32%     | Final CNN model              |
+| `main_vit.ipynb`                       | 2-class (✅)   | 99.85%     | Final ViT model              |
+| `Remodeled_CNN_BY_TARIQ_worked.ipynb` | 3-class (⚠️)   | ??     | Older CNN                    |
+| `Luffa_32X32_8X8_4821s_(9)3.ipynb`     | 3-class (⚠️)   | 99.65%     | Strong ViT on unverified set |
 
 ---
 
